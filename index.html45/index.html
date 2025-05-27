@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mega mart</h1>
+    <p><strong>your compelete shoping destinatoin</strong></p>
+    <div class="nav">
+
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Electronics</a></li>
+        <li><a href="">Fashion</a></li>
+        <li><a href="">Books</a></li>
+        <li><a href="">Cart</a></li>
+        <li><a href="">contact</a></li>
+    </ul>
+
+    </div>
+    <div class="pro">
+
+    <h2>Product search</h2>
+    <input type="text" required placeholder="Search over 10000," name="text" id="text">
+    <input type="submit" id="button"><br>
+    </div>
+
+    <h2>featured Products</h2>
+    <p class="paragraph">Todays Special offer</p>
+    <table border="1" cellspacing="1" id="table">
+        <tbody>
+            <thead>
+                <tr id="First">
+                    <th>Product</th>
+                    <th>Descriptoin</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td><img src="https://cdn.mos.cms.futurecdn.net/y2K5tbPS6Va3bNCUbtXYAi.jpg" alt="Headphones"
+                            width="200"><br><br><b>Wireless Headphones</b></td>
+                    <td>Premium noise canceling &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <ul>
+                            <li>40mm Driver</li>
+                            <li>30-Hour battery</li>
+                            <li>IPX4 Waterproof</li>
+                        </ul>
+                    </td>
+                    <td> <del>$199.99</del><br><br><ins>$149.99</ins></td>
+                    <td>in Stock &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><input type="submit" value="Add to cart" id="same"><br>Available Qantities-15</td>
+                </tr>
+                <tr>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzK0kYkA_-6NFQQ0er242OlaIwsvpF6ukoVA&s" alt="watch" width="200"><br><br><br> Smart watch pro</td>
+                    <td>Advance fitness tracking Smart watch &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ul><li>Heart Rate Monitor</li><li>GPS tracking</li><li>Water resistance</li></ul></td>
+                    <td>$89.99</td>
+                    <td>low stock</td>
+                    <td><input type="submit" value="Add to cart" id="same"></td>
+                </tr>
+            </thead>
+        </tbody>
+    </table>
+    <h1>Create Acount</h1>
+    <form>
+    <fieldset class="colores">
+        <legend id="color">Personal informatoin</legend>
+        <label for="First Name">First Name:</label>
+        <input type="text" name="First Name" id="First Name" required>
+        <label for="Last Name">Last Name:</label>
+        <input type="text" name="Last Name" id="Last Name" required>
+        <label for="Date of Birth">Date of Birth</label>
+        <input type="date">
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Male" name="Male">
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female" name="Female">
+    </fieldset>
+    <fieldset class="colores">
+        <legend id="color">Acount Detail</legend>
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" id="Email" required>
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="Password" required>
+        <label for="Phone number">Phone number:</label>
+        <input type="text" name="Phone number:" id="Phone number:" required>
+        <label for="Subscribe to Newslater">Subscribe to Newslater:</label>
+        <input type="checkbox" name="Subscribe to Newslater" id="Subscribe to Newslater">
+    </fieldset>
+    <fieldset class="colores">
+        <legend id="color">Shipping Address</legend>
+        <label for="Street Address">Street Address:</label>
+        <textarea name="Street Address" id="Street Address" rows="3"></textarea>
+        <label for="Country">Country:</label>
+        <input type="text" name="Country" id="Country" required>
+        <label for="ZIP code">ZIP code:</label>
+        <input type="text" name="ZIP code" id="ZIP code" required>
+    </fieldset>
+    <input type="submit" value="Create Acount" id="butten">
+    <input type="submit" value="Clear Form">
+    </form>
+    <h2>Product Comparison</h2>
+    <table border="1" class="table2">
+        <tbody>
+            <thead>
+                <tr id="for">
+                    <th>Feature</th>
+                    <th>Basic Model</th>
+                    <th>Pro Model</th>
+                    <th>Premium Model</th>
+                </tr>
+                <tr>
+                    <td><b>battery life</b></td>
+                    <td>8 Hours</td>
+                    <td>12 Hours</td>
+                    <td>24 Hours</td>
+                </tr>
+                <tr>
+                    <td><b>Water Ressistance</b></td>
+                    <td>IPX4</td>
+                    <td>IPX7</td>
+                    <td>IP68</td>
+                </tr>
+                <tr>
+                    <td><b>Warrenty</b></td>
+                    <td>1 Year</td>
+                    <td colspan="3">2 Year</td>
+                </tr>
+                <tr>
+                    <td colspan="4" id="all">*All price include VAT</td>
+                </tr>
+            </thead>
+        </tbody>
+    </table>
+    <h2>Checkout Process</h2>
+    <fieldset>
+        <legend>Payment Informatoin</legend>
+        <label>Card Type:</label>
+        <input type="radio" name="fav_language" id="Visa">
+        <label for="Visa">Visa:</label>
+        <input type="radio" name="fav_language" id="Mastered Card">
+        <label for="Mastered Card">Mastered Card:</label>
+        <input type="radio" name="fav_language" id="American Express">
+        <label for="American Express">American Express:</label><br>
+        <label for="Number">Number</label>
+        <input type="number" name="fav_language" id="Number">
+        <label for="Expiry Date">Expiry Date</label>
+        <input type="date" name="fav_language" id="Expiry Date">
+    </fieldset>
+    <fieldset>
+        <legend>Order Summary</legend>
+        <table border="1">
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Wireless Headphones</td>
+                <td>2</td>
+                <td>$299.98</td>
+            </tr>
+            <tr>
+                <td>Shiping</td>
+                <td>-</td>
+                <td>$15.00</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>$314.98</td>
+            </tr>
+        </table>
+    </fieldset><br>
+    <input type="submit" value="Complete purchase">
+    <h2>Product Video</h2>
+    <video src="video.mp4" controls width="500"></video>
+    <h2>Product audio Descriptoin</h2>
+    <audio src="ring.mp3" controls id="audio1"></audio>
+
+    <div class="bg">
+
+    <h2><i>Contact us</i></h2>
+    <label for="Email"><i>Email:</i></label>
+    <a href="mailto:faizancoder@gmail.com">faizancoder@gmail.com</a><br><br>
+    <label for="Phone No"><i>Phone No:</i></label>
+    <a href="phoneto:+92402721521">+9240-27215-21</a>
+    <p><i>Address: Malir 15 Near <br> City Cort Salani Smit</i></p><br>
+    </div>
+
+    <p>Here is our locatoin</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.909441391017!2d67.19561257443!3d24.866942344999934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb331004a2aa071%3A0xf2e132e72edf7754!2sSMIT%20Malir%20Campus!5e0!3m2!1sen!2s!4v1747206792867!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p>Checkout the Latest Video</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xNAJkhDW8tg?si=ly4UBtm3aOXF-ma6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <div class="end">
+
+    <h2>Quick Links</h2>
+    <ul>
+        <li><a href="">Terms of service</a></li>
+        <li><a href="">Privacy policy</a></li>
+        <li><a href="">Return policy</a></li>
+    </ul>
+    <p>@.Mega Mart.All Right Resereved</p>
+    <p>Follow us on <a href="">social Media</a></p>
+    </div>
+</body>
+</html>

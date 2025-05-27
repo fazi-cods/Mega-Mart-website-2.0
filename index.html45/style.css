@@ -1,0 +1,63 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    background-color: rgb(180, 184, 192);
+}
+.nav{
+    background-color: rgb(31, 159, 209);
+    
+}
+.pro{
+    background-color: orange;
+}
+#button{
+    background-color: rgb(255, 102, 0);
+    color: white;
+}
+.paragraph{
+    margin-left: 300px;
+}
+#First{
+    background-color: rgb(8, 177, 8);
+    color: white;
+}
+#table{
+    border-color: rgb(7, 172, 7);
+}
+#same{
+    background-color: rgb(6, 167, 6);
+    color: white    ;
+}
+#color{
+    background-color: rgb(124, 7, 139);
+    color: white;
+}
+.colores{
+    border-color: rgb(186, 66, 197);
+}
+#butten{
+    color: white;
+    background-color: purple    ;
+}
+#for{
+    background-color: rgb(255, 60, 0);
+    color: white;
+}
+.table2{
+    border-color: rgb(255, 72, 0);
+}
+#all{
+    background-color: rgb(223, 187, 170);
+}
+#audio1{
+    color: gray;
+}
+.bg{
+    background-color: rgb(14, 28, 44);
+    color: white;
+}
+.end{
+    background-color: rgb(14, 28, 44);
+    color: white;
+}
